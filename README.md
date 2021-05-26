@@ -1,8 +1,5 @@
-# Boucing-Balls-Project
-
-Project from Codecademy:
-
-Project: Linear Regression
+# Boucing Balls Project - Linear Regression (Codecademy)
+<img width="414" alt="Screen Shot 2021-05-26 at 2 26 16 AM" src="https://user-images.githubusercontent.com/80420919/119606909-c4a29e80-bdc9-11eb-9cde-e6b252fa6594.png">
 
 "Reggie is a mad scientist who has been hired by the local fast food joint to build their newest ball pit in the play area. As such, he is working on researching the bounciness of different balls so as to optimize the pit. He is running an experiment to bounce different sizes of bouncy balls, and then fitting lines to the data points he records. He has heard of linear regression, but needs your help to implement a version of linear regression in Python.
 
@@ -11,7 +8,7 @@ Linear Regression is when you have a group of points on a graph, and you find a 
 We will use loops, lists, and arithmetic to create a function that will find a line of best fit when given a set of data.
 
 
-Part 1: Calculating Error
+## Part 1: Calculating Error
 The line we will end up with will have a formula that looks like:
 
 y = m*x + b
@@ -37,7 +34,7 @@ It looks like we now have a function that can take in a line and Reggie's data a
 Our next step is to find the m and b that minimizes this error, and thus fits the data best!
 
 
-Part 2: Try a bunch of slopes and intercepts!
+## Part 2: Try a bunch of slopes and intercepts!
 The way Reggie wants to find a line of best fit is by trial and error. He wants to try a bunch of different slopes (m values) and a bunch of different intercepts (b values) and see which one produces the smallest error value for his dataset.
 
 Using a list comprehension, let's create a list of possible m values to try. Make the list possible_ms that goes from -10 to 10 inclusive, in increments of 0.1.
@@ -60,8 +57,7 @@ By the end of these nested loops, the smallest_error should hold the smallest er
 
 Print out best_m, best_b and smallest_error after the loops.
 
-
-Part 3: What does our model predict?
+## Part 3: What does our model predict?
 Now we have seen that for this set of observations on the bouncy balls, the line that fits the data best has an m of 0.3 and a b of 1.7:
 
 y = 0.3x + 1.7
